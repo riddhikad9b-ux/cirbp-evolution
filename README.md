@@ -3,6 +3,7 @@
 </p>
 
 # CIRBP evolution: did long-lived mammals evolve a "better" DNA-repair protein?
+   | **[CIRBP-Evolution](https://github.com/riddhikad9b-ux/cirbp-evolution)** | Cross-mammal test (251 species): did long-lived mammals evolve a better CIRBP? Answer: no, the bowhead's version is whale-specific. | Python, NCBI Datasets, AnAge
 
 **Part 2** of [sleep-cirbp](https://github.com/riddhikad9b-ux/sleep-cirbp). Part 1 showed that sleep loss lowers *Cirbp* in the mouse brain (3 datasets, pooled p = 0.00016). This repository asks whether **evolution tuned CIRBP's gene sequence in long-lived or cool-bodied mammals**.
 
