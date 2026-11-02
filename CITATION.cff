@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this analysis, please cite it as below, and cite the original data sources."
+title: "Did long-lived mammals evolve a more efficient CIRBP? Cross-species codon and protein analysis"
+authors:
+  - family-names: "D"
+    given-names: "Riddhika"
+    affiliation: "Sathyabama Institute of Science and Technology, Chennai, India"
+date-released: 2026-10-31
+version: "0.1.0"
+license: MIT
