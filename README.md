@@ -1,11 +1,12 @@
 <p align="center">
-  <img src="./banner.svg" width="100%" alt="CIRBP Evolution: did long-lived mammals evolve a better DNA-repair gene?" />
+  <img src="./banner.svg" width="100%" alt="CIRBP Evolution: did long-lived mammals evolve a better DNA-repair protein?" />
 </p>
 
 # CIRBP evolution: did long-lived mammals evolve a "better" DNA-repair protein?
-   | **[CIRBP-Evolution](https://github.com/riddhikad9b-ux/cirbp-evolution)** | Cross-mammal test (251 species): did long-lived mammals evolve a better CIRBP? Answer: no, the bowhead's version is whale-specific. | Python, NCBI Datasets, AnAge
 
-**Part 2** of [sleep-cirbp](https://github.com/riddhikad9b-ux/sleep-cirbp). Part 1 showed that sleep loss lowers *Cirbp* in the mouse brain (3 datasets, pooled p = 0.00016). This repository asks whether **evolution tuned CIRBP's gene sequence in long-lived or cool-bodied mammals**.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24030169.svg)](https://doi.org/10.5281/zenodo.24030169)
+
+Part 2 of sleep-cirbp. Part 1 showed that sleep loss lowers *Cirbp* in the mouse brain (3 datasets, pooled p = 0.00016). This repository asks whether **evolution tuned CIRBP's gene sequence in long-lived or cool-bodied mammals**.
 
 ## Answer in one line
 **No.** Once mammal family history is taken into account, CIRBP's codon usage does not track longevity or body temperature. The bowhead whale's enhanced CIRBP looks like a **whale-specific adaptation**, not a mammal-wide rule.
@@ -33,7 +34,7 @@ The bowhead whale (200+ years) has high levels of CIRBP. CIRBP is a cold-inducib
 | Arg CGN codons, RBM3, protein sites | all p > 0.1 | — | No signal |
 
 ### Analysis 2: proper test (up to 84 species)
-Model: measure ~ body temperature + longevity residual + mammalian order (fixed effect), errors clustered by family. GC3 and CAI are also measured **relative to each species' genome background** (median across 67 other genes).
+Model: measure ~ body temperature + longevity residual + mammalian order (fixed effect), errors clustered by family. GC3 and CAI are also measured **relative to each species' genome background** (median across 66 other genes).
 
 | CIRBP measure | Temperature effect | Beats controls | Longevity effect (given temperature) |
 |---|---|---|---|
